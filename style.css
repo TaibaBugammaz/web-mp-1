@@ -9,30 +9,46 @@ body{
 
 
 .logo{
-    width: 50px;
+    display: flex;
+    justify-content: start;
+    width: 40px;
+    
 }
 
 nav{
     display: flex;
     justify-content: center;
-    width: 1200px;
+    align-items: flex-start;
+    width: 1219px;
     background-color: black;
-    padding-right: 50px;
+    /* padding-right: 50px;
     padding-left: 30px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 30px; */
+    padding: 30px;
+    
+    
+
+    
 }
 
 .nav-elements{
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
-    width: 1200px;
+    width: 1200px; 
 }
+
 
 a{
 color: white;
 font-weight: bold;
 text-decoration: none;
+}
+a:hover{
+    color: #ffe06f;
+    transition: all 0.2s ease-in-out ;
+    opacity: 0.7;
+
 }
 
 h4{
@@ -40,7 +56,7 @@ h4{
     text-decoration: none;
 }
 li{
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: lighter;
 
@@ -48,11 +64,21 @@ li{
 
 
 .leftbar{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    width: 60px;
-    background-color: rgba(202, 200, 200, 0.39);
-    padding: 30px;
+    width: 60px; */
+    /* padding: 30px;
+    height: 700px; */
+    height: 100%;
+    width: 106px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(202, 200, 200);
+    margin-top: 8px;
+    padding-top:26px;
+    
        
 }
 
@@ -68,31 +94,53 @@ ul{
 
 img{
     width: 200px;
-    margin: 0px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 img:hover{
-    background-color: #ffdf6cce;
     transition: all 0.5s ease-in-out ;
     opacity: 0.7;
     
-  
-  
 }
 
 h3{
     text-align: left;   
 }
 
-h2{
+/* h2{
     display: flex;
     justify-content: space-around;
-}
+} */
 
 .title{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 p{
     font-weight: lighter;
 }
+
+/* .list{
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none; 
+    padding: 0px; 
+    margin: 0px;
+
+} */
+
+
+
+
+
+
